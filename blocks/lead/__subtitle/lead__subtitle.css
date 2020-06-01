@@ -1,0 +1,27 @@
+/* lead__subtitle */
+.lead__subtitle {
+    max-width: 620px;
+    margin: 32px auto 0;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .lead__subtitle {
+        width: calc(100vw * (426 / 620));
+        font-size: calc(100vw * (30 / 767));
+        line-height: 1.2;
+        margin: 16px auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 1;
+        margin: 16px auto;
+    }
+}

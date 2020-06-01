@@ -1,0 +1,16 @@
+/* place__description */
+.place__description {
+    margin-top: 0;
+}
+
+@media only screen and (min-device-width: 567px) and (max-device-width: 767px) {
+    .place__description {
+        margin-top: 32px;
+    }
+} 
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    .place__description {
+        margin-top: 32px;
+    }
+}

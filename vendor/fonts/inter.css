@@ -1,0 +1,11 @@
+/* fonts */
+
+@font-face {
+    font-family: "Inter";
+    src: url(/vendor/fonts/Inter-Regular.woff);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(/vendor/fonts/Inter-Bold.woff);
+}
