@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: "Inter";
-    src: url(/web_project_3/vendor/fonts/Inter-Black.otf);
+    src: url(../fonts/Inter-Black.otf)
 }
 
 @font-face {
     font-family: "Inter";
-    src: url(/web_project_3/vendor/fonts/Inter-Bold.otf);
+    src: url(../fonts/Inter-Bold.otf);
 }
 
 @font-face {
     font-family: "Inter";
-    src: url(/web_project_3/vendor/fonts/Inter-ExtraBold.otf);
+    src: url(../fonts/Inter-ExtraBold.otf);
 }
 
 @font-face {
     font-family: "Inter";
-    src: url(/web_project_3/vendor/fonts/Inter-Regular.otf);
+    src: url("../fonts/Inter-Regular.otf");
 }
 
 
