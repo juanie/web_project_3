@@ -4,4 +4,5 @@
     color: #ffffff;
     cursor: pointer;
     text-decoration: none;
+    transition: opacity 0.8s;
   }

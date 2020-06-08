@@ -19,6 +19,7 @@
     .cover__subtitle {
         font-size: calc(100vw * (18/ 768));
         margin: 16px auto;
+      
     }
 }
 
@@ -28,5 +29,6 @@
         margin: 16px auto;
         font-size: 14px;
         line-height: 16px;
+         overflow-x: hidden;
     }
 }

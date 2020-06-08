@@ -4,13 +4,15 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
-    display: flex;
+     display: flex; 
     max-width: 1184px;
     padding: 92px 48px 24px 48px;
-    margin: auto;
+    margin: auto ;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
+     font-family: "Inter", Arial, Helvetica, sans-serif; 
+     
 }
+
 
 @media screen and (max-width: 1024px) {
     .footer {
