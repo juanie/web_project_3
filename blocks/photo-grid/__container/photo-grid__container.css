@@ -1,7 +1,4 @@
-/* photo-grid__container */
-@import url(./__container/photo-grid__container.css);
-@import url(./__item/photo-grid__item.css);
-@import url(./__pic/photo-grid__pic.css);
+
 
 .photo-grid__container {
     max-width: 1184px;

@@ -7,32 +7,34 @@
     display: flex;
     justify-content: space-between;
     max-width: 984px;
-    padding-top: 34px;
-    padding-left: 148px;
-    padding-right: 148px;
+    padding-top: 34px; 
+  
     margin: auto;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width:769) and (max-width: 1024px) {
     .header {  
-    
         margin-right: 48px;
-        margin-left:48px;
+        margin-left:48px; 
     }
 }
 
-@media screen and (max-width: 768px) {
+
+
+
+
+@media screen and (min-width:426px) and (max-width: 768px) {
     .header {  
-        max-width: 720px;
-        padding-right: 24px;
-        padding-left: 24px;
+        
+        margin-right:24px;
+        margin-left:24px;
     }
 }
 
-@media screen and (max-width: 425px) {
+ @media screen and (max-width:425px) {
     .header {  
         max-width: 288px;
         padding-right: 16px;
         padding-left: 16px;
         padding-top: 18px;
     }
-}
+}  

@@ -2,15 +2,8 @@
 .place__description {
     margin-top: 0;
 }
-
-/* @media only screen and (min-d-width: 567px) and (max-device-width: 767px) {
-    .place__description {
-        margin-top: 32px;
-    } */
-
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+ @media only screen and (min-width: 320px) and (max-width: 767px) {
     .place__description {
         margin-top: 32px;
     }
-}
+} 

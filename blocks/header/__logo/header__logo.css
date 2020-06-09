@@ -8,5 +8,7 @@
     .logo {
         width: 156px;
         height: 36px;
+        top: 20px;
+        left:16px;
     }
 }

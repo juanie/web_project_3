@@ -15,20 +15,23 @@
     }
 }
 
-@media only screen and (min-device-width: 426px) and (max-device-width: 767px) {
+ @media only screen and (min-device-width: 426px) and (max-device-width: 767px) {
     .cover__subtitle {
-        font-size: calc(100vw * (18/ 768));
+         font-size: 14px;
+        line-height: 16px; 
         margin: 16px auto;
       
     }
-}
+} 
+
+
 
 @media screen and (max-width: 425px) {
     .cover__subtitle {
-        max-width: 288px;
+         max-width: 288px;
         margin: 16px auto;
         font-size: 14px;
         line-height: 16px;
-         overflow-x: hidden;
+       
     }
 }
