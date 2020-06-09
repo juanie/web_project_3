@@ -26,4 +26,4 @@ Sprint 4 Project: From Portland to Portland
 
 project can be found at:
 
-https://github.com/juanie/web_project_1
+https://juanie.github.io/web_project_3/
