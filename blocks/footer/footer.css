@@ -2,31 +2,32 @@
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
-
 .footer {
-     display: flex; 
-    max-width: 1184px;
-    padding: 92px 48px 24px 48px;
-    margin: auto ;
+    display: flex;
+    max-width: 1184px; 
+    padding: 92px 24px 24px 24px; 
+    margin: auto;
     justify-content: space-between;
-     font-family: "Inter", Arial, Helvetica, sans-serif; 
-     
 }
+
+
+
 
 
 @media screen and (max-width: 1024px) {
     .footer {
         max-width: 928px;
     }
+
 }
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     .footer {
-        /* max-width: 719px; */
-          margin: 0px 24px 24px 24px;
-    }
-}
-
+   width:722px;
+        /* padding: 88px auto 24px; 
+         margin-right: 24px;  */
+     
+    }} 
 @media screen and (max-width: 525px) {
     .footer {
         width: 168px;
@@ -34,6 +35,6 @@
         padding-top: 64px;
         padding-left: 16px;
         margin-left: 0;
-       
     }
 }
+   
