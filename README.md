@@ -6,15 +6,15 @@ Sprint 4 Project: From Portland to Portland
   A responsive static page about traveling across the US, from Portland to Portland.
 
   Used the following technologies:
-           •	HTML5
-           •	CSS3
-           •	FIGMA
-           •	BEM Naming Methodology
-           •	Flexbox/Grid layout 
-           •	Media Queries
-           •	Transitions
+           	HTML5
+           	CSS3
+           	FIGMA
+           	BEM Naming Methodology
+           	Flexbox/Grid layout 
+           	Media Queries
+            Transitions
 
-           Responsive Layout Breakpoints
+      Responsive Layout Breakpoints:
 
 •	1280px and higher (standard laptops and beyond).
 
