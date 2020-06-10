@@ -1,7 +1,8 @@
  
- 
  Yandex Practicum  Bootcamp Project
 Sprint 4 Project: From Portland to Portland
+
+
 
   A responsive static page about traveling across the US, from Portland to Portland.
 
