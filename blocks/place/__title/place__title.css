@@ -1,11 +1,10 @@
 /* place__title */
 .place__title{
-    margin-top: 0;
+   
     margin-right: 40px;
     font-size: 72px;
     font-weight: 900;
     line-height: 65px;
-    font-weight: 900;
     color: #FFFFFF;
     width: 440px;
 }

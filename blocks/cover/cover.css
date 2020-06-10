@@ -17,23 +17,9 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 
- .cover:before{
-   opacity: 0.3;
-    cursor: pointer;
-    background-color:#2A2C2F; 
- }
-
-.cover:hover {
- background-color:#2A2C2F; 
-  opacity:0.8;
- cursor: pointer;
-}
- .cover:before{
-     opacity: 0.3;
-    cursor: pointer;
- }
 
  @media screen and (min-width: 320px) {
     .cover {
