@@ -8,7 +8,7 @@
     line-height: 1;
 }
 
-@media screen and (min-width: 300px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
     .place__url-heading {
         display: none;
     }

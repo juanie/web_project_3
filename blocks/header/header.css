@@ -8,13 +8,13 @@
     justify-content: space-between;
     max-width: 984px;
     padding-top: 34px; 
-    margin: auto;
+    margin:48px;
     
 }
 @media screen and (min-width:769) and (max-width: 1024px) {
     .header {  
-        margin-right: 48px;
-        margin-left:48px; 
+       max-width:928px;
+      
     }
 }
 
