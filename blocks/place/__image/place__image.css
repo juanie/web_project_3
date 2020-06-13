@@ -10,7 +10,7 @@
 @media only screen and (min-width: 900px) and (max-width: 1279px) {
     .place__image {
         width: 440px;
-        height: 400px;
+        height: 440px;
     }
 }
 
@@ -21,16 +21,16 @@
     }
 }
 
-@media only screen and (min-width: 567px) and (max-width: 767px) {
+ @media only screen and (min-width: 567px) and (max-width: 767px) {
     .place__image {
         width: 330px;
         height: 330px;        
     }
-}
+} 
 
 @media only screen and (min-width: 300px) {
     .place__image {
         width:320px;
         height:320px;        
     }
-}
+} 

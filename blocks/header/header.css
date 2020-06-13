@@ -3,38 +3,6 @@
 @import url(./__link/header__link.css);
 @import url(./__link/_active/header__link_active.css);
 
-/* .header {
-    display: flex;
-    justify-content: space-between;
-    max-width: 984px;
-    padding-top: 34px;
-   
-}
-
-@media screen and (min-width:768) and (max-width: 1024px) {
-    .header {  
-        margin-right:48px;
-        margin-left:48px; 
-    }
-} */
-
-/* @media screen and (min-width:426px) and (max-width: 768px) {
-    .header {  
-        
-        margin-right:24px;
-        margin-left:24px;
-    }
-}
-
- @media screen and (max-width:425px) {
-    .header {  
-        max-width: 288px;
-        padding-right: 16px;
-        padding-left: 16px;
-        padding-top: 18px;
-    }
-}   */
-
 .header{
   margin-top: 46px;
   display: flex;
