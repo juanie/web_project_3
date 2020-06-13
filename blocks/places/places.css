@@ -1,8 +1,9 @@
 /* places */
 @import url(./__list/places__list.css);
- .places {
+
+.places {
     padding-top: 92px;
-    padding-left: 148px;
+     padding-left: 148px; 
     padding-right: 148px;
     padding-bottom: 0;
     max-width: 984px;
@@ -16,20 +17,25 @@
     }
 }
 
-@media only screen and (min-width:568px) and (max-width: 768px) {
+@media only screen and (min-width:568px) and (max-width: 1023px) {
     .places {
         padding-right: 24px;
         padding-left: 24px;
     }
 }
- 
+ @media only screen and (min-width: 568px) and (max-width: 768px) {
+    .places {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+} 
 
   @media only screen and (min-width: 400px) and (max-width: 567px) {
     .places {
         padding-left: 24px; 
-      
+        margin: 0;
     }
-}   
+}  
 
 @media only screen and (min-width: 331px) and (max-width: 399px) {
     .places {
@@ -44,4 +50,4 @@
         padding-left: 0;
         margin: 0;
     }
-} 
+}

@@ -9,13 +9,14 @@
 
 .place {
     display: grid;
-    grid-template-columns: 460px 1fr;
+    grid-template-columns: 460px 484px;
     grid-column-gap: 40px;
     margin-bottom: 80px;
 }
 
 
- @media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place {
         grid-template-columns: minmax(460px, 484px) 1fr;
         grid-column-gap: 32px;
@@ -24,25 +25,24 @@
    
 }
 
- @media only screen and (min-width: 900px) and (max-width: 1023px) {
+@media only screen and (min-width: 900px) and (max-width: 1023px) {
     .place {
-         /* grid-template-columns: minmax(460px, 484px) 1fr;  */
+        grid-template-columns: minmax(460px, 484px) 1fr;
         grid-column-gap:  28px;
     }
        
-    } 
+    }
 
- @media only screen and (min-width: 727px) and (max-width: 899px) {
+@media only screen and (min-width: 768px) and (max-device-width: 899px) {
     .place {
-        grid-template-columns: 340px;
+        grid-template-columns: 340px auto;
         grid-column-gap:  28px;
     }
         
-    } 
+    }
     
     
-@media only screen and (min-width: 568px) and (max-width: 730px)
- {
+@media only screen and (min-width: 568px) and (max-device-width: 767px) {
     .place {
         width: 340px;
         grid-template-columns: 330px;
@@ -51,11 +51,11 @@
        
     }
 
-@media only screen and (max-width: 567px) {
+@media only screen and (min-width: 300px) and (max-width: 567px) {
     .place {
-        width: 320px;
-        grid-template-columns: auto;
+        width: 310px;
+        grid-template-columns: 300px;
         margin-bottom: 48px;
     }
         
-    }  
+    } 

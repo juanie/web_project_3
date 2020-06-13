@@ -1,11 +1,10 @@
 /* footer__links */
 .footer__links {
     display: flex;
-    
-     list-style: none; 
+    flex-direction: row;
+    list-style: none;
     margin-top: 0;
     padding-left: 0;
-    align-self: flex-end;
 }
 
 @media screen and (max-width: 525px) {

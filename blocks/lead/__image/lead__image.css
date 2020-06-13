@@ -13,14 +13,16 @@
     }
 }
 
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
     .lead__image {
         width: 100%;  
         height: 100%;  
     }
 }
 
-@media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
+@media only screen and (min-width: 321px) and (max-width: 768px) {
     .lead__image {
         width: 100vw;  
         height: 100%;      
@@ -28,7 +30,7 @@
     }
 }
 
-@media screen and (max-device-width: 320px) {
+@media screen and (max-width: 320px) {
     .lead__image {
         width: 320px;  
         height: 200px;      
