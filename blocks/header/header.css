@@ -6,15 +6,16 @@
 .header {
     display: flex;
     justify-content: space-between;
-    max-width: 984px;
+   margin-left: 148px;
+    margin-right:148px;
     padding-top: 34px; 
-    margin:48px;
     
 }
-@media screen and (min-width:769) and (max-width: 1024px) {
+@media screen  and (max-width: 1024px) {
     .header {  
        max-width:928px;
-      
+       margin-left:48px;
+       margin-right: 48px
     }
 }
 
@@ -22,7 +23,7 @@
 
 
 
-@media screen and (min-width:426px) and (max-width: 768px) {
+@media screen  and (max-width: 768px) {
     .header {  
         
         margin-right:24px;
