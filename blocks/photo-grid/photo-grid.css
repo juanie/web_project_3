@@ -20,8 +20,3 @@
     }
 } 
 
-@media screen and (min-width:100px) {
-    .photo-grid {
-        padding: 4px 6px 0 6px;
-    }
-} 

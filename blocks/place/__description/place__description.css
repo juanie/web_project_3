@@ -1,9 +1,19 @@
 /* place__description */
 .place__description {
-    margin-top: 0;
+  grid-area:text;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  margin: 0;
 }
- @media only screen  and (max-width: 767px) {
-    .place__description {
-        margin-top: 32px;
-    }
-} 
+
+
+@media screen and (max-width: 768px) {
+  .place__text{
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
