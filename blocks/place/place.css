@@ -6,7 +6,6 @@
 @import url(./__description/place__description.css);
 @import url(./__paragraph/place__paragraph.css);
 
-
 .place{	
 	color: white;
 	margin-top: 92px;
@@ -21,14 +20,14 @@
 	"image text";
 	margin-right: auto;
 	margin-left: auto;
-	max-width:984px;
+	max-width: 984px;
 	box-sizing: border-box;
+	
 	}
 	
 	@media screen and (max-width: 1024px) {
 	.place{
 	max-width: 928px;
-	
 	margin-right:auto;
 	margin-left:auto;
 	grid-gap: 32px;
@@ -38,7 +37,7 @@
 	
 	@media screen and (max-width: 768px) {
 	.place{
-	max-width: 720px;
+	max-width: 700px;
 	margin-top: 88px;
 	margin-right: auto;
 	margin-left:auto;
@@ -52,8 +51,8 @@
 	margin-top: 48px;
 	grid-template-columns: auto;
 	grid-gap: 24px;
-	margin-right: 16px;
-	margin-left: 16px;
+	margin-right: 24px;
+	margin-left: 24px;
 	grid-template-areas:
 	"title"
 	"image"
