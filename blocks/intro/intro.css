@@ -13,17 +13,30 @@
     margin-top:114px;
 }
  
+ @media only screen and (max-width:1280px){
+    .intro{
+        margin: 32px 442px 32px 148px;
+    }   
+}
 
-@media only screen and (max-width: 1023px) {
+
+ @media only screen and (max-width:1024px){
+    .intro{
+        margin: 32px 286px 32px 48px;
+    }   
+} 
+
+
+ @media only screen and (max-width: 1023px) {
     .intro {
         padding: 88px 24px 0 24px; 
     }
-}
+} 
 
 @media only screen and (max-width: 767px) {
     .intro {
         margin: auto;
-        padding: 64px 24px 0 24px;
+         padding: 64px 24px 0 24px; 
     }
 }
 
