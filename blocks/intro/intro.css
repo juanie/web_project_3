@@ -15,33 +15,29 @@
  
  @media only screen and (max-width:1280px){
     .intro{
-        margin: 32px 442px 32px 148px;
+         margin-left:148px;
+         margin-right:148px;
     }   
 }
 
 
- @media only screen and (max-width:1024px){
-    .intro{
-        margin: 32px 286px 32px 48px;
-    }   
-} 
-
-
- @media only screen and (max-width: 1023px) {
+ @media only screen and (max-width: 1024px) {
     .intro {
-        padding: 88px 24px 0 24px; 
+        
+        margin-right:48px;
+        margin-left:48px
     }
 } 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .intro {
-        margin: auto;
-         padding: 64px 24px 0 24px; 
+       
+         margin: 110px 24px 0 24px; 
     }
 }
 
 @media screen and (max-width: 374px) {
     .intro {
-        padding: 64px 16px 0 16px;
+        margin: 64px 16px 0 16px;
     }
 }
